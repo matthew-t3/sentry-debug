@@ -17,7 +17,6 @@ module.exports = withSentryConfig(
 
     org: "throwawaysentry",
     project: "sentry-debug",
-    sentryUrl: "https://sentry.io/",
 
     // Only print logs for uploading source maps in CI
     silent: !process.env.CI,
