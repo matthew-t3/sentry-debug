@@ -6,7 +6,8 @@
         "^build"
       ],
       "env": [
-        "NEXT_RUNTIME"
+        "NEXT_RUNTIME",
+        "SENTRY_AUTH_TOKEN"
       ],
       "inputs": [
         "$TURBO_DEFAULT$",
