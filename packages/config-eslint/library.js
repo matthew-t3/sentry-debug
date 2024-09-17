@@ -32,6 +32,7 @@ module.exports = {
         extensions: [".mjs", ".js", ".jsx", ".ts", ".tsx"],
       },
     },
+    "@typescript-eslint/no-misused-promises": "off",
   },
   ignorePatterns: ["node_modules/", "dist/"],
 };
